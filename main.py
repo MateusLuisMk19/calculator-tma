@@ -4,7 +4,7 @@ import webview
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DADOS_PATH = os.path.join(BASE_DIR, 'dados.json')
-HTML_PATH = os.path.join(BASE_DIR, 'index.html')
+HTML_PATH = 'https://mateusluismk19.github.io/apps/tmaC/index.html'
 
 # --- Armazenamento ---
 def carregar_dados():
